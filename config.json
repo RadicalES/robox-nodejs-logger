@@ -1,0 +1,28 @@
+{
+    "server" : {
+        "ipAddress" : "192.168.60.118",
+        "port"  : 7070
+    },
+    "devices" : [ 
+        {
+            "tagName" : "ColdStore1",
+            "ipAddress" : "192.168.60.221",
+            "channels" : [
+                { "tagName" : "Line A1", "index" : 1 },
+                { "tagName" : "Line D3", "index" : 2 },
+                { "tagName" : "Line R6", "index" : 3 },
+                { "tagName" : "Line Y8", "index" : 4 }
+            ]
+        },
+        {
+            "tagName" : "ColdStore2",
+            "ipAddress" : "192.168.60.222",
+            "channels" : [
+                { "tagName" : "Line Oxygen", "index" : 1 },
+                { "tagName" : "Line Nitrogen", "index" : 2 },
+                { "tagName" : "Line Gas", "index" : 3 },
+                { "tagName" : "Line Pump", "index" : 4 }
+            ]
+        }
+    ]
+}

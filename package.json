@@ -1,0 +1,21 @@
+{
+  "name": "roboxlogger",
+  "version": "1.0.0",
+  "description": "RoboX Event Logger",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Jan Zwiegers, jan@radicalsystems.co.za",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "moment": "^2.25.3",
+    "moment-timezone": "^0.5.28",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.3",
+    "winston": "^3.2.1"
+  }
+}

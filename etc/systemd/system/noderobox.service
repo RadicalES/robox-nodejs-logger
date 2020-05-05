@@ -1,0 +1,13 @@
+[Unit]
+Description=RoboX NodeJS Event Logger
+Documentation=http://www.roboxio.com
+After=network.target
+
+[Service]
+Type=simple
+User=nodejs
+ExecStart=/usr/bin/node /opt/nodejs/roboxlogger/server.js
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
